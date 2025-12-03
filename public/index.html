@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top-Down Battle Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="gameCanvas"></canvas>
+
+<div id="hud">
+    <div id="hp">HP: 100</div>
+</div>
+
+<div id="controls">
+    <button onclick="changeType('soldier')">Soldat</button>
+    <button onclick="changeType('tank')">Panzer</button>
+    <button onclick="changeType('plane')">Flugzeug</button>
+</div>
+
+<div id="shootControl">
+    <button onclick="shoot()">Feuer</button>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
