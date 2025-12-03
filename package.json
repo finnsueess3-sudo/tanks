@@ -1,7 +1,6 @@
 {
   "name": "mobile-battle-game",
   "version": "1.0.0",
-  "description": "Realistisches Top-Down-Multiplayer Kampfspiel",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
